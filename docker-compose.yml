@@ -1,0 +1,29 @@
+version: '3.5'
+
+services:
+  app:
+    image: 'boot:latest'
+    build:
+      context: ./
+    container_name: boot
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      POSTGRES_HOST: db
+      restart: always
+
+  db:
+    image: 'postgres:14'
+    restart: always
+    container_name: pg
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data/pgdata
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: qny47bsq
+      POSTGRES_DB: database
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+     - "5432:5432"
