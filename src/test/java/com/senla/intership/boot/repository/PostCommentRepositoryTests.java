@@ -1,11 +1,9 @@
 package com.senla.intership.boot.repository;
 
 import com.senla.intership.boot.BootApplication;
-import com.senla.intership.boot.api.repository.HashtagRepository;
 import com.senla.intership.boot.api.repository.PostCommentRepository;
 import com.senla.intership.boot.api.repository.PostRepository;
 import com.senla.intership.boot.api.repository.UserProfileRepository;
-import com.senla.intership.boot.entity.Hashtag;
 import com.senla.intership.boot.entity.Post;
 import com.senla.intership.boot.entity.PostComment;
 import com.senla.intership.boot.entity.UserProfile;

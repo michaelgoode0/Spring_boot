@@ -1,5 +1,6 @@
 package com.senla.intership.boot.service;
 
+import com.senla.intership.boot.api.repository.InviteRepository;
 import com.senla.intership.boot.api.service.InviteService;
 import com.senla.intership.boot.api.service.UserProfileService;
 import com.senla.intership.boot.dto.InviteDto;
@@ -11,7 +12,6 @@ import com.senla.intership.boot.exceptions.ResourceNotFoundException;
 import com.senla.intership.boot.security.api.service.UserService;
 import com.senla.intership.boot.security.dto.UserWithAllDto;
 import com.senla.intership.boot.util.AuthNameHolder;
-import com.senla.intership.boot.api.repository.InviteRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;

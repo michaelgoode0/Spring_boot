@@ -1,27 +1,12 @@
 package com.senla.intership.boot.service;
 
 import com.senla.intership.boot.api.repository.PostCommentRepository;
-import com.senla.intership.boot.api.service.PostCommentService;
-import com.senla.intership.boot.dto.PostCommentWithAllDto;
-import com.senla.intership.boot.dto.PostCommentWithPostDto;
-import com.senla.intership.boot.dto.PostDto;
-import com.senla.intership.boot.entity.Post;
-import com.senla.intership.boot.entity.PostComment;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
-
-import java.util.Optional;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 public class PostCommentServiceTests {

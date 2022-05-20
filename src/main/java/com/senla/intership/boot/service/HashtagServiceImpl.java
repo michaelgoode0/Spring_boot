@@ -2,7 +2,6 @@ package com.senla.intership.boot.service;
 
 import com.senla.intership.boot.api.repository.HashtagRepository;
 import com.senla.intership.boot.api.service.HashtagService;
-import com.senla.intership.boot.dto.HashtagDto;
 import com.senla.intership.boot.dto.HashtagWithPostsDto;
 import com.senla.intership.boot.dto.PostDto;
 import com.senla.intership.boot.entity.Hashtag;

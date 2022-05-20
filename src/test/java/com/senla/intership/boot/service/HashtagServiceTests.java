@@ -1,13 +1,8 @@
 package com.senla.intership.boot.service;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.senla.intership.boot.api.repository.HashtagRepository;
-import com.senla.intership.boot.dto.HashtagDto;
 import com.senla.intership.boot.dto.HashtagWithPostsDto;
 import com.senla.intership.boot.entity.Hashtag;
-import org.apache.catalina.mapper.Mapper;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

@@ -4,7 +4,6 @@ import com.senla.intership.boot.BootApplication;
 import com.senla.intership.boot.api.repository.PostRepository;
 import com.senla.intership.boot.api.repository.ReactionRepository;
 import com.senla.intership.boot.api.repository.UserProfileRepository;
-import com.senla.intership.boot.entity.Hashtag;
 import com.senla.intership.boot.entity.Post;
 import com.senla.intership.boot.entity.Reaction;
 import com.senla.intership.boot.entity.UserProfile;
@@ -12,12 +11,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.ContextConfiguration;
 
-import java.util.Collections;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;

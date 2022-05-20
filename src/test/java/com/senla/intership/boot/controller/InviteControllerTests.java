@@ -1,6 +1,5 @@
 package com.senla.intership.boot.controller;
 
-import com.senla.intership.boot.BootApplication;
 import com.senla.intership.boot.BootApplicationTests;
 import com.senla.intership.boot.api.repository.InviteRepository;
 import com.senla.intership.boot.api.repository.UserProfileRepository;

@@ -1,5 +1,6 @@
 package com.senla.intership.boot.service;
 
+import com.senla.intership.boot.api.repository.PostRepository;
 import com.senla.intership.boot.api.service.HashtagService;
 import com.senla.intership.boot.api.service.PostService;
 import com.senla.intership.boot.api.service.ReactionService;
@@ -10,7 +11,6 @@ import com.senla.intership.boot.entity.User;
 import com.senla.intership.boot.exceptions.ResourceNotFoundException;
 import com.senla.intership.boot.security.api.repository.UserRepository;
 import com.senla.intership.boot.util.AuthNameHolder;
-import com.senla.intership.boot.api.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;

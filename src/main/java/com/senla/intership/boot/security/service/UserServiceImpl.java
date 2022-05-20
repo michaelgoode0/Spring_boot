@@ -2,7 +2,6 @@ package com.senla.intership.boot.security.service;
 
 import com.senla.intership.boot.entity.User;
 import com.senla.intership.boot.entity.UserProfile;
-import com.senla.intership.boot.exceptions.ResourceNotFoundException;
 import com.senla.intership.boot.security.api.repository.RoleRepository;
 import com.senla.intership.boot.security.api.repository.UserRepository;
 import com.senla.intership.boot.security.api.service.UserService;

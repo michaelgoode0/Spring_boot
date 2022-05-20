@@ -1,21 +1,17 @@
 package com.senla.intership.boot.repository;
 
 import com.senla.intership.boot.BootApplication;
-import com.senla.intership.boot.api.repository.UserProfileRepository;
-import com.senla.intership.boot.entity.Post;
-import com.senla.intership.boot.entity.UserProfile;
 import com.senla.intership.boot.security.api.repository.RoleRepository;
-import com.senla.intership.boot.security.api.repository.UserRepositoryImpl;
 import com.senla.intership.boot.security.enums.RoleName;
 import com.senla.intership.boot.security.model.Role;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ContextConfiguration(classes = {BootApplication.class})
 @DataJpaTest

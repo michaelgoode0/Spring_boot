@@ -2,10 +2,7 @@ package com.senla.intership.boot.repository;
 
 import com.senla.intership.boot.BootApplication;
 import com.senla.intership.boot.api.repository.UserProfileRepository;
-import com.senla.intership.boot.entity.User;
 import com.senla.intership.boot.entity.UserProfile;
-import com.senla.intership.boot.security.enums.RoleName;
-import com.senla.intership.boot.security.model.Role;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

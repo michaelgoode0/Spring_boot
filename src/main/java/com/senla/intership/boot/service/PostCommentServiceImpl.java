@@ -1,5 +1,6 @@
 package com.senla.intership.boot.service;
 
+import com.senla.intership.boot.api.repository.PostCommentRepository;
 import com.senla.intership.boot.api.repository.PostRepository;
 import com.senla.intership.boot.api.service.PostCommentService;
 import com.senla.intership.boot.dto.PostCommentWithAllDto;
@@ -9,13 +10,9 @@ import com.senla.intership.boot.entity.PostComment;
 import com.senla.intership.boot.entity.User;
 import com.senla.intership.boot.exceptions.ResourceNotFoundException;
 import com.senla.intership.boot.security.api.repository.UserRepository;
-import com.senla.intership.boot.security.api.service.UserService;
-import com.senla.intership.boot.security.dto.UserWithAllDto;
 import com.senla.intership.boot.util.AuthNameHolder;
-import com.senla.intership.boot.api.repository.PostCommentRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

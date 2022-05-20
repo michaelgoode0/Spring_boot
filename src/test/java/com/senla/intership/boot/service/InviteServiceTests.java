@@ -1,8 +1,6 @@
 package com.senla.intership.boot.service;
 
-import com.senla.intership.boot.api.repository.HashtagRepository;
 import com.senla.intership.boot.api.repository.InviteRepository;
-import com.senla.intership.boot.api.service.InviteService;
 import com.senla.intership.boot.dto.InviteDto;
 import com.senla.intership.boot.entity.Invite;
 import org.junit.jupiter.api.Test;
@@ -13,12 +11,12 @@ import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
 
+import java.util.Date;
+import java.util.Optional;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
-
-import java.util.Date;
-import java.util.Optional;
 
 @ExtendWith(MockitoExtension.class)
 public class InviteServiceTests {

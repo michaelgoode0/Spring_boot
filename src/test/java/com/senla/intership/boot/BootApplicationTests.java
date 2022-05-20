@@ -5,7 +5,6 @@ import com.senla.intership.boot.entity.UserProfile;
 import com.senla.intership.boot.security.api.repository.UserRepository;
 import com.senla.intership.boot.security.dto.AuthorizedUserDTO;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,25 +1,17 @@
 package com.senla.intership.boot.controller;
 
 
-import com.senla.intership.boot.BootApplication;
 import com.senla.intership.boot.BootApplicationTests;
 import com.senla.intership.boot.api.repository.HashtagRepository;
 import com.senla.intership.boot.entity.Hashtag;
-import com.senla.intership.boot.entity.User;
-import com.senla.intership.boot.security.api.repository.UserRepository;
-import com.senla.intership.boot.security.dto.AuthorizedUserDTO;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 import javax.transaction.Transactional;
-import java.util.List;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 

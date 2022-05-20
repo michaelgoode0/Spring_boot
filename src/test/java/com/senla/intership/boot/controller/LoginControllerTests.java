@@ -7,21 +7,11 @@ import com.senla.intership.boot.security.api.repository.RoleRepository;
 import com.senla.intership.boot.security.api.repository.UserRepository;
 import com.senla.intership.boot.security.enums.RoleName;
 import com.senla.intership.boot.security.model.Role;
-import org.hamcrest.Matcher;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 
 import javax.transaction.Transactional;
-
 import java.util.Collections;
-
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
 @Transactional
 public class LoginControllerTests extends BootApplicationTests {
