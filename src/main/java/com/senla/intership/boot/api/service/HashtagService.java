@@ -1,7 +1,7 @@
 package com.senla.intership.boot.api.service;
 
-import com.senla.intership.boot.dto.HashtagWithPostsDto;
-import com.senla.intership.boot.dto.PostDto;
+import com.senla.intership.boot.dto.hashtag.HashtagWithPostsDto;
+import com.senla.intership.boot.dto.post.PostDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

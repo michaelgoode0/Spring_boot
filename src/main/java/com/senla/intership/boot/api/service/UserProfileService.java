@@ -1,7 +1,7 @@
 package com.senla.intership.boot.api.service;
 
-import com.senla.intership.boot.dto.UserProfileDto;
-import com.senla.intership.boot.dto.UserProfileWithAllDto;
+import com.senla.intership.boot.dto.profile.UserProfileDto;
+import com.senla.intership.boot.dto.profile.UserProfileWithAllDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

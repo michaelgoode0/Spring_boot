@@ -1,7 +1,7 @@
 package com.senla.intership.boot.controller;
 
 import com.senla.intership.boot.api.service.InviteService;
-import com.senla.intership.boot.dto.InviteDto;
+import com.senla.intership.boot.dto.invite.InviteDto;
 import com.senla.intership.boot.util.AuthNameHolder;
 import com.senla.intership.boot.util.SortHelper;
 import lombok.RequiredArgsConstructor;

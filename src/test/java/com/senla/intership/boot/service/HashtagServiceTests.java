@@ -1,7 +1,7 @@
 package com.senla.intership.boot.service;
 
 import com.senla.intership.boot.api.repository.HashtagRepository;
-import com.senla.intership.boot.dto.HashtagWithPostsDto;
+import com.senla.intership.boot.dto.hashtag.HashtagWithPostsDto;
 import com.senla.intership.boot.entity.Hashtag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

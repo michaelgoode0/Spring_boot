@@ -1,7 +1,7 @@
 package com.senla.intership.boot.controller;
 
 import com.senla.intership.boot.api.service.ReactionService;
-import com.senla.intership.boot.dto.ReactionWithProfileDto;
+import com.senla.intership.boot.dto.reaction.ReactionWithProfileDto;
 import com.senla.intership.boot.util.SortHelper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

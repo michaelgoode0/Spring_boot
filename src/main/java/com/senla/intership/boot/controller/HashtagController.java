@@ -1,7 +1,7 @@
 package com.senla.intership.boot.controller;
 
 import com.senla.intership.boot.api.service.HashtagService;
-import com.senla.intership.boot.dto.HashtagWithPostsDto;
+import com.senla.intership.boot.dto.hashtag.HashtagWithPostsDto;
 import com.senla.intership.boot.util.AuthNameHolder;
 import com.senla.intership.boot.util.SortHelper;
 import lombok.RequiredArgsConstructor;

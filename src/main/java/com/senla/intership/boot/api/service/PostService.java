@@ -1,9 +1,9 @@
 package com.senla.intership.boot.api.service;
 
-import com.senla.intership.boot.dto.PostDto;
-import com.senla.intership.boot.dto.PostWithAllDto;
-import com.senla.intership.boot.dto.PostWithProfileDto;
-import com.senla.intership.boot.dto.PostWithReactionsDto;
+import com.senla.intership.boot.dto.post.PostDto;
+import com.senla.intership.boot.dto.post.PostWithAllDto;
+import com.senla.intership.boot.dto.post.PostWithProfileDto;
+import com.senla.intership.boot.dto.post.PostWithReactionsDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.access.prepost.PreAuthorize;

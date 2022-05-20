@@ -1,6 +1,6 @@
 package com.senla.intership.boot.api.service;
 
-import com.senla.intership.boot.dto.InviteDto;
+import com.senla.intership.boot.dto.invite.InviteDto;
 import com.senla.intership.boot.enums.InviteStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,7 +1,7 @@
 package com.senla.intership.boot.service;
 
 import com.senla.intership.boot.api.repository.InviteRepository;
-import com.senla.intership.boot.dto.InviteDto;
+import com.senla.intership.boot.dto.invite.InviteDto;
 import com.senla.intership.boot.entity.Invite;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

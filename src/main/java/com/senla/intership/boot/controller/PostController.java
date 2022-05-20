@@ -1,10 +1,10 @@
 package com.senla.intership.boot.controller;
 
 import com.senla.intership.boot.api.service.PostService;
-import com.senla.intership.boot.dto.PostDto;
-import com.senla.intership.boot.dto.PostWithAllDto;
-import com.senla.intership.boot.dto.PostWithProfileDto;
-import com.senla.intership.boot.dto.PostWithReactionsDto;
+import com.senla.intership.boot.dto.post.PostDto;
+import com.senla.intership.boot.dto.post.PostWithAllDto;
+import com.senla.intership.boot.dto.post.PostWithProfileDto;
+import com.senla.intership.boot.dto.post.PostWithReactionsDto;
 import com.senla.intership.boot.util.SortHelper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

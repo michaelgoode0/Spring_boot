@@ -1,8 +1,8 @@
 package com.senla.intership.boot.api.service;
 
-import com.senla.intership.boot.dto.PostDto;
-import com.senla.intership.boot.dto.ReactionDto;
-import com.senla.intership.boot.dto.ReactionWithProfileDto;
+import com.senla.intership.boot.dto.post.PostDto;
+import com.senla.intership.boot.dto.reaction.ReactionDto;
+import com.senla.intership.boot.dto.reaction.ReactionWithProfileDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

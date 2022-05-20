@@ -1,8 +1,8 @@
 package com.senla.intership.boot.controller;
 
 import com.senla.intership.boot.api.service.UserProfileService;
-import com.senla.intership.boot.dto.UserProfileDto;
-import com.senla.intership.boot.dto.UserProfileWithAllDto;
+import com.senla.intership.boot.dto.profile.UserProfileDto;
+import com.senla.intership.boot.dto.profile.UserProfileWithAllDto;
 import com.senla.intership.boot.util.SortHelper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,8 +1,8 @@
 package com.senla.intership.boot.controller;
 
 import com.senla.intership.boot.api.service.PostCommentService;
-import com.senla.intership.boot.dto.PostCommentWithAllDto;
-import com.senla.intership.boot.dto.PostCommentWithPostDto;
+import com.senla.intership.boot.dto.comment.PostCommentWithAllDto;
+import com.senla.intership.boot.dto.comment.PostCommentWithPostDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

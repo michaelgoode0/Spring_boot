@@ -1,6 +1,6 @@
 package com.senla.intership.boot.security.dto;
 
-import com.senla.intership.boot.dto.UserProfileDto;
+import com.senla.intership.boot.dto.profile.UserProfileDto;
 import lombok.Data;
 
 import java.util.List;

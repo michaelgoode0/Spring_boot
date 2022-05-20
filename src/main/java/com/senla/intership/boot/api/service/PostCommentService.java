@@ -1,7 +1,7 @@
 package com.senla.intership.boot.api.service;
 
-import com.senla.intership.boot.dto.PostCommentWithAllDto;
-import com.senla.intership.boot.dto.PostCommentWithPostDto;
+import com.senla.intership.boot.dto.comment.PostCommentWithAllDto;
+import com.senla.intership.boot.dto.comment.PostCommentWithPostDto;
 
 public interface PostCommentService {
     PostCommentWithPostDto create(PostCommentWithPostDto commentDto);
