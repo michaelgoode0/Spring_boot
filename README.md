@@ -13,5 +13,6 @@ Technologies that have been used:
 * Validation
 * Unit tests 
 * Spring Security (authorization and registration with JWT token)
+* Logging starter which was created with AspectJ
 ## Business idea
 Create RESTful project "Analogue of twitter" with authorization and registration, some entities (Post, User, Profile, Hashtag, Invite, Role, PostComment, Reaction), pagination and some other services
